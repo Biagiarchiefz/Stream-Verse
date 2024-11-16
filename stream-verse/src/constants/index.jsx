@@ -15,14 +15,15 @@
 // import user5 from "../assets/user5.jpeg";
 // import user6 from "../assets/user6.jpeg";
 
-import {
-  RiBarChart2Line,
-  RiSettings2Line,
-  RiTeamLine,
-  RiTwitchLine,
-  RiYoutubeLine,
-  RiCalendarLine,
-} from "@remixicon/react";
+// import {
+//   RiBarChart2Line,
+//   RiSettings2Line,
+//   RiTeamLine,
+//   RiTwitchLine,
+//   RiYoutubeLine,
+//   RiCalendarLine,
+// } from "@remixicon/react";
+
 export const HERO_CONTENT = {
   badgeText: "🚀 New Feature: Stream Analytics 2.0 Now Live!",
   mainHeading: "The Ultimate \n Streaming Toolkit+",
@@ -34,12 +35,14 @@ export const HERO_CONTENT = {
   },
   trustedByText: "Trusted by Leading Streaming Brands & Creators",
 };
-export const BRAND_LOGOS = [
-  { src: StreamLabsLogo, alt: "StreamLabs" },
-  { src: BroadcastlyLogo, alt: "Broadcastly" },
-  { src: LiveStreamerLogo, alt: "LiveStreamer" },
-  { src: CloudCastLogo, alt: "CloudCast" },
-];
+
+// export const BRAND_LOGOS = [
+//   { src: StreamLabsLogo, alt: "StreamLabs" },
+//   { src: BroadcastlyLogo, alt: "Broadcastly" },
+//   { src: LiveStreamerLogo, alt: "LiveStreamer" },
+//   { src: CloudCastLogo, alt: "CloudCast" },
+// ];
+
 export const HOW_IT_WORKS_CONTENT = {
   sectionTitle: "How it works!",
   sectionDescription:
@@ -49,43 +52,43 @@ export const HOW_IT_WORKS_CONTENT = {
       title: "Set Up Your Streaming Environment",
       description:
         "Easily configure your streaming environment with our user-friendly tools. Connect to Twitch, YouTube, and more in minutes.",
-      imageSrc: streamImage,
+      // imageSrc: streamImage,
       imageAlt: "Streaming Setup",
     },
     {
       title: "Engage with Your Audience",
       description:
         "Interact with your audience in real-time through custom alerts, chat overlays, and live notifications.",
-      imageSrc: audienceEngagementImage,
+      // imageSrc: audienceEngagementImage,
       imageAlt: "Audience Engagement",
-      users: [user1, user2, user3, user5],
+      // users: [user1, user2, user3, user5],
     },
     {
       title: "Track and Analyze Performance",
       description:
         "Monitor your stream’s performance in real-time with detailed analytics and viewer engagement insights.",
-      imageSrc: chart,
+      // imageSrc: chart,
       imageAlt: "Performance Analytics",
     },
     {
       title: "Optimize Your Stream Settings",
       description:
         "Fine-tune your stream settings for optimal performance, ensuring smooth streams even during high traffic.",
-      imageSrc: optimize,
+      // imageSrc: optimize,
       imageAlt: "Optimize Settings",
     },
     {
       title: "Monetize Your Streams",
       description:
         "Unlock revenue streams by adding subscriptions, donations, and sponsorships to your stream.",
-      imageSrc: monetizeImage,
+      // imageSrc: monetizeImage,
       imageAlt: "Monetization",
     },
     {
       title: "Automate Your Workflows",
       description:
         "Use advanced automation tools to manage your schedule, alerts, and promotions effortlessly.",
-      imageSrc: automationImage,
+      // imageSrc: automationImage,
       imageAlt: "Workflow Automation",
     },
   ],
@@ -97,42 +100,42 @@ export const KEY_FEATURES_CONTENT = {
   features: [
     {
       id: 1,
-      icon: <RiBarChart2Line className="w-8 h-8" />,
+      // icon: <RiBarChart2Line className="w-8 h-8" />,
       title: "Real-Time Stream Analytics",
       description:
         "Track your audience engagement, viewer count, and performance in real-time.",
     },
     {
       id: 2,
-      icon: <RiSettings2Line className="w-8 h-8" />,
+      // icon: <RiSettings2Line className="w-8 h-8" />,
       title: "Automated Stream Management",
       description:
         "Set up automated alerts, stream schedules, and more with ease.",
     },
     {
       id: 3,
-      icon: <RiTeamLine className="w-8 h-8" />,
+      // icon: <RiTeamLine className="w-8 h-8" />,
       title: "Audience Engagement Tools",
       description:
         "Interact with your audience through custom alerts, chat integrations, and giveaways.",
     },
     {
       id: 4,
-      icon: <RiTwitchLine className="w-8 h-8" />,
+      // icon: <RiTwitchLine className="w-8 h-8" />,
       title: "Twitch Integration",
       description:
         "Seamlessly connect with Twitch to automate alerts, manage subscribers, and track donations.",
     },
     {
       id: 5,
-      icon: <RiYoutubeLine className="w-8 h-8" />,
+      // icon: <RiYoutubeLine className="w-8 h-8" />,
       title: "YouTube Streaming Support",
       description:
         "Go live on YouTube with built-in tools for managing chats, subscribers, and more.",
     },
     {
       id: 6,
-      icon: <RiCalendarLine className="w-8 h-8" />,
+      // icon: <RiCalendarLine className="w-8 h-8" />,
       title: "Schedule Streams",
       description:
         "Plan and schedule your streams ahead of time, with reminders sent to your audience.",
@@ -197,42 +200,42 @@ export const TESTIMONIALS_CONTENT = {
       title: "Content Creator",
       review:
         "Streamerzz has revolutionized the way we manage our content subscriptions. The intuitive dashboard and real-time analytics have made it easier to track our progress and optimize our offerings. Highly recommended!",
-      image: user1,
+      // image: user1,
     },
     {
       name: "Bob Smith",
       title: "Marketing Specialist",
       review:
         "The team at Streamerzz has been fantastic! Their support is responsive and knowledgeable. The platform itself is versatile and has helped us streamline our subscription management, saving us time and increasing efficiency.",
-      image: user2,
+      // image: user2,
     },
     {
       name: "Carla Mendes",
       title: "Product Manager",
       review:
         "Streamerzz's automated billing and comprehensive analytics have been game-changers for our product team. We can now easily track user engagement and make data-driven decisions to enhance our service offerings.",
-      image: user3,
+      // image: user3,
     },
     {
       name: "David Lee",
       title: "Customer Success Manager",
       review:
         "Using Streamerzz, we’ve been able to increase our customer retention rates. The platform's user-friendly interface and powerful features have provided our customers with a seamless experience, leading to higher satisfaction.",
-      image: user4,
+      // image: user4,
     },
     {
       name: "Ella Fernandez",
       title: "UX Designer",
       review:
         "Streamerzz's flexibility and ease of use have made it a key tool in our design process. We can quickly adjust our subscription plans and monitor the impact on user engagement, allowing for a more responsive approach.",
-      image: user5,
+      // image: user5,
     },
     {
       name: "Frank Wilson",
       title: "Data Analyst",
       review:
         "Streamerzz provides us with detailed insights into our subscription metrics. The advanced reporting tools have enabled us to identify trends and make informed decisions to optimize our growth strategy.",
-      image: user6,
+      // image: user6,
     },
   ],
 };
