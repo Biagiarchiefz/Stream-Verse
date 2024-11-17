@@ -2,12 +2,8 @@ import StreamLabsLogo from "../assets/streamlabs-logo.png";
 import BroadcastlyLogo from "../assets/broadcastly-logo.png";
 import LiveStreamerLogo from "../assets/livestreamer-logo.png";
 import CloudCastLogo from "../assets/cloudcast-logo.png";
-// import streamImage from "../assets/streamer.jpeg";
-// import chart from "../assets/chart.png";
-// import optimize from "../assets/optimize.jpeg";
-// import audienceEngagementImage from "../assets/audience.jpeg";
-// import monetizeImage from "../assets/monetize.jpeg";
-// import automationImage from "../assets/automation.jpeg";
+import stream1 from "../assets/stream1.jpeg";
+
 // import user1 from "../assets/user1.jpeg";
 // import user2 from "../assets/user2.jpeg";
 // import user3 from "../assets/user3.jpeg";
@@ -52,7 +48,7 @@ export const HOW_IT_WORKS_CONTENT = {
       title: "Set Up Your Streaming Environment",
       description:
         "Easily configure your streaming environment with our user-friendly tools. Connect to Twitch, YouTube, and more in minutes.",
-      // imageSrc: streamImage,
+      imageSrc: stream1,
       imageAlt: "Streaming Setup",
     },
     {
