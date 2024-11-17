@@ -16,9 +16,15 @@ import user3 from "../assets/user3.jpeg";
 import user4 from "../assets/user4.jpeg";
 // import user5 from "../assets/user5.jpeg";
 // import user6 from "../assets/user6.jpeg";
+import { RiBarChartFill } from "react-icons/ri";
+import { RiSettings3Fill } from "react-icons/ri";
+import { RiTimeLine } from "react-icons/ri";
+import { RiTwitchLine } from "react-icons/ri";
+import { RiYoutubeLine } from "react-icons/ri";
+import { RiCalendar2Line } from "react-icons/ri";
+
 
 // import {
-//   RiBarChart2Line,
 //   RiSettings2Line,
 //   RiTeamLine,
 //   RiTwitchLine,
@@ -102,42 +108,42 @@ export const KEY_FEATURES_CONTENT = {
   features: [
     {
       id: 1,
-      // icon: <RiBarChart2Line className="w-8 h-8" />,
+      icon: <RiBarChartFill className="w-8 h-8" />,
       title: "Real-Time Stream Analytics",
       description:
         "Track your audience engagement, viewer count, and performance in real-time.",
     },
     {
       id: 2,
-      // icon: <RiSettings2Line className="w-8 h-8" />,
+      icon: <RiSettings3Fill className="w-8 h-8"/>,
       title: "Automated Stream Management",
       description:
         "Set up automated alerts, stream schedules, and more with ease.",
     },
     {
       id: 3,
-      // icon: <RiTeamLine className="w-8 h-8" />,
+      icon: <RiTimeLine className="w-8 h-8" />,
       title: "Audience Engagement Tools",
       description:
         "Interact with your audience through custom alerts, chat integrations, and giveaways.",
     },
     {
       id: 4,
-      // icon: <RiTwitchLine className="w-8 h-8" />,
+      icon: <RiTwitchLine className="w-8 h-8"/>,
       title: "Twitch Integration",
       description:
         "Seamlessly connect with Twitch to automate alerts, manage subscribers, and track donations.",
     },
     {
       id: 5,
-      // icon: <RiYoutubeLine className="w-8 h-8" />,
+      icon: <RiYoutubeLine className="w-8 h-8" />,
       title: "YouTube Streaming Support",
       description:
         "Go live on YouTube with built-in tools for managing chats, subscribers, and more.",
     },
     {
       id: 6,
-      // icon: <RiCalendarLine className="w-8 h-8" />,
+      icon: <RiCalendar2Line className="w-8 h-8" />,
       title: "Schedule Streams",
       description:
         "Plan and schedule your streams ahead of time, with reminders sent to your audience.",
