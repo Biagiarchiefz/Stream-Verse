@@ -3,11 +3,17 @@ import BroadcastlyLogo from "../assets/broadcastly-logo.png";
 import LiveStreamerLogo from "../assets/livestreamer-logo.png";
 import CloudCastLogo from "../assets/cloudcast-logo.png";
 import stream1 from "../assets/stream1.jpeg";
+import stream2 from "../assets/stream2.jpeg";
+import stream3 from "../assets/stream3.jpeg";
+import stream4 from "../assets/stream4.jpeg";
+// import stream5 from "../assets/stream5.jpeg";
+import stream6 from "../assets/stream6.jpeg";
+import stream7 from "../assets/stream7.jpeg";
 
-// import user1 from "../assets/user1.jpeg";
-// import user2 from "../assets/user2.jpeg";
-// import user3 from "../assets/user3.jpeg";
-// import user4 from "../assets/user4.jpeg";
+import user1 from "../assets/user1.jpeg";
+import user2 from "../assets/user2.jpeg";
+import user3 from "../assets/user3.jpeg";
+import user4 from "../assets/user4.jpeg";
 // import user5 from "../assets/user5.jpeg";
 // import user6 from "../assets/user6.jpeg";
 
@@ -55,36 +61,36 @@ export const HOW_IT_WORKS_CONTENT = {
       title: "Engage with Your Audience",
       description:
         "Interact with your audience in real-time through custom alerts, chat overlays, and live notifications.",
-      // imageSrc: audienceEngagementImage,
+      imageSrc: stream6,
       imageAlt: "Audience Engagement",
-      // users: [user1, user2, user3, user5],
+      users: [user1, user2, user3, user4],
     },
     {
       title: "Track and Analyze Performance",
       description:
         "Monitor your stream’s performance in real-time with detailed analytics and viewer engagement insights.",
-      // imageSrc: chart,
+      imageSrc: stream3,
       imageAlt: "Performance Analytics",
     },
     {
       title: "Optimize Your Stream Settings",
       description:
         "Fine-tune your stream settings for optimal performance, ensuring smooth streams even during high traffic.",
-      // imageSrc: optimize,
+      imageSrc: stream4,
       imageAlt: "Optimize Settings",
     },
     {
       title: "Monetize Your Streams",
       description:
         "Unlock revenue streams by adding subscriptions, donations, and sponsorships to your stream.",
-      // imageSrc: monetizeImage,
+      imageSrc: stream7,
       imageAlt: "Monetization",
     },
     {
       title: "Automate Your Workflows",
       description:
         "Use advanced automation tools to manage your schedule, alerts, and promotions effortlessly.",
-      // imageSrc: automationImage,
+      imageSrc: stream2,
       imageAlt: "Workflow Automation",
     },
   ],
